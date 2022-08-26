@@ -23,9 +23,19 @@ section h3 {
   padding: 3px;
 }
 
+.bi.bi-star-fill {
+  color: #F9CC00;
+}
 
 .navbar {
   background-color: #f1f3ff;
+}
+
+.navbar-nav .nav-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
 }
 
 @media (min-width: 992px) {
@@ -38,12 +48,6 @@ section h3 {
   }
 }
 
-.navbar-nav .nav-item {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #000000;
-}
 
 
 .jumbotron {
@@ -86,6 +90,21 @@ section h3 {
   margin-bottom: 5px;
 }
 
+.why-us .card-body h5 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.why-us .card-body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  transition: .5s ease;
+  overflow: hidden;
+}
+
 
 
 @media screen and (max-width: 767px) {
@@ -95,23 +114,6 @@ section h3 {
   .card-why-us {
     margin-bottom: 16px;
   }
-}
-
-
-.why-us .card-body h5 {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-
-.why-us .card-body {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  cursor: pointer;
-  transition: .5s ease;
-  overflow: hidden;
 }
 
 /* custom yellow transition */
@@ -212,8 +214,8 @@ section h3 {
 .btn.btn-success:hover:before {
   width: 100%;
 }
-/* custom blue transition */
 
+/* custom blue transition */
 
 @media screen and (max-width: 576px) {
   .why-us .judul-wu{
@@ -243,10 +245,7 @@ section h3 {
   border-radius: 5px;
 }
 
-/* end */
-.bi.bi-star-fill {
-  color: #F9CC00;
-}
+
 /* custom green transition */
 
 .why-us .card-body.green:hover * {
@@ -311,10 +310,6 @@ section h3 {
   z-index: 1;
 }
 
-
-/* End */
-
-/* Testi */
 /* Owl Carousel */
 
 @media screen and (max-width: 576px) {
@@ -341,7 +336,6 @@ section h3 {
   padding: 50px 30px;
   border-radius: 8px;
 }
-/* End */
 
 .testi button {
   width: 32px;
@@ -351,21 +345,17 @@ section h3 {
   text-align: center;
   font-size: 6px;
 }
-/* End */
+
 
 .testi button.btn-left {
   background-color: #ffffff;
   border: 1px solid #222222;
 }
-/* End */
 
 .testi .star {
   font-size: 30px;
   color: #f9cc00;
 }
-/* End */
-
-/* Getting Started */
 
 @media screen and (max-width: 576px) {
   .getting-started .item-jumbo {
@@ -383,13 +373,13 @@ section h3 {
   color: #ffffff;
   height: 326px;
 }
-/* End */
+
 
 .getting-started h2 {
   font-weight: bold;
   line-height: 150%;
 }
-/* End */
+
 
 /* FAQ */
 .faq .accordion button {
@@ -406,9 +396,7 @@ section h3 {
     text-align: center;
   }
 }
-/* End */
 
-/* Sidebar */
 @media (min-width: 992px) {
   .offcanvas {
     visibility: visible;
@@ -439,4 +427,4 @@ section h3 {
     font-weight: 400;
   }
 }
-/* End */
+
